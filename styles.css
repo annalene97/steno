@@ -8,8 +8,6 @@ body {
     background-color: black;
     color: white;
     font-family: "Montserrat", sans-serif;
-    width: 1024px;
-    height: 1529px;
 }
 
 h1 {
@@ -24,6 +22,11 @@ h2 {
 p {
     font-size: 1.5em;
     line-height: 1.7em;
+}
+
+.tablet_container {
+    width: 1024px;
+    height: 1529px;
 }
 
 /* ---------------------- 
