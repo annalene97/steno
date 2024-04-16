@@ -1,0 +1,105 @@
+body {
+    /* RESET */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /* BASAL STYLING */
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+/* ---------------------- 
+--------- FOOTER --------
+---------------------- */
+.ren_footer {
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(26, 26, 26, 1);
+    border-top: solid white 3px;
+}
+
+/* ---------------------- 
+------ RENÆSSANCEN ------
+---------------------- */
+/* .ren_grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 71px 71px 71px 71px 100px 100px 100px; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+    ". . . . . . . . . . retur"
+    "tekst1 tekst1 tekst1 tekst1 . . . . krop krop krop"
+    "tekst1 tekst1 tekst1 tekst1 . ikon1 ikon1 . krop krop krop"
+    "tekst1 tekst1 tekst1 tekst1 . ikon1 ikon1 . krop krop krop"
+    ". . . . . . . . krop krop krop"
+    ". tekst2 tekst2 tekst2 . . . . krop krop krop"
+    ". tekst2 tekst2 tekst2 . . . . krop krop krop"
+    ". tekst2 tekst2 tekst2 . ikon3 ikon3 . krop krop krop"
+    ". . ikon2 ikon2 . ikon3 ikon3 . . . ."
+    ". . ikon2 ikon2 . . . . . . .";
+}
+    
+    .retur { grid-area: 1 / 11 / 2 / 12;}
+
+    .ren_tiden { grid-area: 5 / 1 / 2 / 5; }
+    
+    .ren_krop { grid-area: 2 / 9 / 9 / 12; }
+    
+    .ren_ideal { grid-area: 6 / 2 / 9 / 5; }
+    
+    .ren_lut { grid-area: 5 / 6 / 3 / 8; }
+    
+    .ren_fjer { grid-area: 9 / 3 / 11 / 5; }
+    
+    .ren_penge { grid-area: 8 / 6 / 10 / 8; } */
+
+.retur {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+
+main {
+    margin: 0 20px;
+}
+
+.ren_flex {
+    display: flex;
+    gap: 4rem;
+}
+
+.ren_flex_tekst {
+    display: flex;
+    flex-direction: column;
+}
+
+.ren_krop {
+    padding: 50px 0;
+}
+.ren_krop img {
+    height: 900px;
+    width: auto;
+}
+
+.ikon {
+    width: 200px;
+    height: auto;
+}
