@@ -22,6 +22,18 @@ h2 {
 p {
     font-size: 1em;
 }
+/*-----------------------
+------ Menu.html---------
+------------------------*/
+
+/*- Flex box rundt om menuen-*/
+.flex-container {
+    display: flex;
+    background-color: purple;
+    justify-content: center;
+  }
+
+  
 
 /* ---------------------- 
 --------- FOOTER --------
