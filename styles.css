@@ -20,7 +20,7 @@ h2 {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.7em;
 }
 
@@ -28,18 +28,6 @@ p {
     width: 1024px;
     height: 1529px;
 }
-/*-----------------------
------- Menu.html---------
-------------------------*/
-
-/*- Flex box rundt om menuen-*/
-.flex-container {
-    display: flex;
-    background-color: purple;
-    justify-content: center;
-  }
-
-  
 
 /* ---------------------- 
 --------- FOOTER --------
@@ -132,4 +120,7 @@ main {
 /* ---------------------- 
 -------- NUTIDEN --------
 ---------------------- */
+.nutid_flex1 {
+    display: flex;
 
+}
