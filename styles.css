@@ -89,7 +89,7 @@ main {
     margin: 0 20px;
 }
 
-/* OPSÆTNING AF FLEKSBOX */
+/* OPSÆTNING AF FLEXBOX */
 .ren_flex {
     display: flex;
     gap: 4rem;
@@ -110,7 +110,14 @@ main {
     width: auto;
 }
 
+/* STYLING AF IKONER */
 .ikon {
     width: 200px;
     height: auto;
 }
+
+
+/* ---------------------- 
+-------- NUTIDEN --------
+---------------------- */
+
