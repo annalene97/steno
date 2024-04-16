@@ -1,0 +1,13 @@
+/*-----------------------
+------ Menu.html---------
+------------------------*/
+
+/*- Flex box rundt om menuen-*/
+.flex-container {
+    display: flex;
+    background-color: purple;
+    justify-content: center;
+
+  }
+
+  
