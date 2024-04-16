@@ -1,11 +1,37 @@
-body {
-    /* RESET */
+/* RESET */
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
 
-    /* BASAL STYLING */
-    background-color: saddlebrown;
+/* FARVER */
+:root {
+    --blaa1: rgba(3, 25, 64, 1);
+    --blaa2: rgba(18, 51, 111, 1);
+    --blaa3: rgba(60, 97, 166, 1);
+    --blaa4: rgba(153, 180, 227, 1);
+
+    --orange1: rgba(208, 58, 19, 1);
+    --orange2: rgba(227, 89, 52, 1);
+    --orange3: rgba(241, 126, 95, 1);
+    --orange4: rgba(255, 169, 146, 1);
+
+    --gul1: rgba(212, 151, 15, 1);
+    --gul2: rgba(223, 168, 46, 1);
+    --gul3: rgba(225, 183, 91, 1);
+    --gul4: rgba(236, 208, 146, 1);
+
+    --lilla1: rgba(104, 76, 205, 1);
+    --lilla2: rgba(136, 118, 201, 1);
+    --lilla3: rgba(161, 144, 220, 1);
+    --lilla4: rgba(194, 183, 232, 1);
+
+}
+
+/* BASAL STYLING */
+body {
+    background-color: black;
     color: white;
     font-family: "Montserrat", sans-serif;
 }
@@ -13,20 +39,36 @@ body {
 h1 {
     font-size: 5em;
     margin: 0;
+    font-weight: 700;
+    margin-bottom: 25px;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+
+h3 {
+    font-size: 1.4em;
+    line-height: 1.3em;
+    font-weight: 600;
 }
 
 p {
     font-size: 1.2em;
-    line-height: 1.7em;
+    line-height: 1.9em;
+    font-weight: 500;
 }
 
 .tablet_container {
     width: 1024px;
     height: 1529px;
+}
+
+main {
+    margin: 0 4%;
 }
 
 /* ---------------------- 
@@ -44,56 +86,10 @@ p {
 /* ---------------------- 
 ------ RENÆSSANCEN ------
 ---------------------- */
-/* .ren_grid {
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px 71px 71px 71px 71px 100px 100px 100px; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 5px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: 
-    ". . . . . . . . . . retur"
-    "tekst1 tekst1 tekst1 tekst1 . . . . krop krop krop"
-    "tekst1 tekst1 tekst1 tekst1 . ikon1 ikon1 . krop krop krop"
-    "tekst1 tekst1 tekst1 tekst1 . ikon1 ikon1 . krop krop krop"
-    ". . . . . . . . krop krop krop"
-    ". tekst2 tekst2 tekst2 . . . . krop krop krop"
-    ". tekst2 tekst2 tekst2 . . . . krop krop krop"
-    ". tekst2 tekst2 tekst2 . ikon3 ikon3 . krop krop krop"
-    ". . ikon2 ikon2 . ikon3 ikon3 . . . ."
-    ". . ikon2 ikon2 . . . . . . .";
-}
-    
-    .retur { grid-area: 1 / 11 / 2 / 12;}
-
-    .ren_tiden { grid-area: 5 / 1 / 2 / 5; }
-    
-    .ren_krop { grid-area: 2 / 9 / 9 / 12; }
-    
-    .ren_ideal { grid-area: 6 / 2 / 9 / 5; }
-    
-    .ren_lut { grid-area: 5 / 6 / 3 / 8; }
-    
-    .ren_fjer { grid-area: 9 / 3 / 11 / 5; }
-    
-    .ren_penge { grid-area: 8 / 6 / 10 / 8; } */
-
-/* HEADER */
-.retur {
-    width: 50px;
-    height: 50px;
-    background-color: aqua;
-}
-
-/* MAIN */
-main {
-    margin: 0 50px;
-}
-
-/* OPSÆTNING AF FLEXBOX */
+    /* OPSÆTNING AF FLEXBOKS */
 .ren_flex {
     display: flex;
     gap: 4rem;
-width: 984px;
 }
 
 .ren_flex_tekst {
@@ -110,22 +106,102 @@ width: 984px;
     width: auto;
 }
 
-/* STYLING AF IKONER */
-.ikon {
-    width: 200px;
-    height: auto;
-}
 
+
+/* HEADER */
+.retur {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
 
 /* ---------------------- 
 -------- NUTIDEN --------
 ---------------------- */
+
+
+/* OPSÆTNING AF FLEXBOKS */
 .nutid_flex1 {
     display: flex;
     gap: 1rem;
+    margin-bottom: 20px;
 }
 
 .nutid_flex1_1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.nutid_flex1_ikon {
+    margin: 20px 0;
+}
+
+/* OPSÆTNING AF FLEXBOKS */
+.nutid_flex2 {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+.nutid_flex2_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.afstemning {
+    width: 450px;
+    height: 330px;
+    background-color: var(--gul1);
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px 5px var(--gul3);
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.afstemning_knap {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.7em;
+    color: white;
+    background-color: var(--lilla2);
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0px rgb(64, 64, 64);
+}
+
+.nutid_flex2_ikoner {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+
+/* STYLING AF IKONER */
+.nutid_ikon_tlf {
+    width: auto;
+    height: 150px;
+    transform: rotate(-30deg)
+}
+
+.nutid_ikon {
+    width: auto;
+    height: 150px;
+}
+
+.video_emilie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
