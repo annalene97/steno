@@ -40,20 +40,38 @@
                 </div>
             </div>
             
-            <!-- FLexboks til  -->
+            <!-- Container til flexboks opsætning -->
             <div class="nutid_flex2">
                 <div class="nutid_flex2_1">
-                    <div id="afstemning">
-                        <h2 class="afstemning_h3">HVOR TILFREDS ER DU MED DIN KROP?</h2>
-                        <button id="afstemning_knap">
-                            SVAR
-                        </button>
+                    
+                    <div class="afstemning_container">
+                       <div id="afstemning_svar" class="afstemning_foer">
+                            <h3 class="afstemning_h3">HVOR TILFREDS ER DU MED <br> DIN KROP?</h3>
+                            <button id="knap_svar" class="afstemning_knap">
+                                SVAR
+                            </button>
+                        </div>
+                            
+                        <div id="afstemning_valg" class="afstemning_efter">
+                            <h3 class="afstemning_h3">HVOR TILFREDS ER DU MED <br> DIN KROP?</h3>
+                            <div class="afstemning_div">
+                                <button class="knap_valg" onclick="window.location.href='#'">Slet ikke tilfreds</button>
+                                <button class="knap_valg" onclick="window.location.href='#'">Mindre tilfreds</button>
+                                <button class="knap_valg" onclick="window.location.href='#'">Hverken/eller tilfreds</button>
+                                <button class="knap_valg" onclick="window.location.href='#'">Nogenlunde tilfreds</button>
+                                <button class="knap_valg" onclick="window.location.href='#'">Meget tilfreds</button>
+                            </div>
+                        </div>
                     </div>
+                    
+
                     <div class="nutid_flex2_ikoner">
                         <img src="images/mundbind.png" alt="Mundbind" class="nutid_ikon">
                         <img src="images/tiktok.png" alt="Tiktok" class="nutid_ikon">
                     </div>
                 </div>
+
+
                 <div class="video_emilie">
                     <h3 class="video_emilie_h2">HØR HVAD EMILIE TÆNKER OM KROPSIDEALERNE I DAG</h3>
                     <video width="300px" height="auto">
@@ -66,7 +84,7 @@
         <!-- FOOTER -->
         <footer class="footer">
             <div class="footer_start">
-                <button class="nav_knap" onclick="window.location.href='index.html'">
+                <button class="nav_knap" onclick="window.location.href='index.html'"> <!-- Ved klik bliver brugeren taget tilbage til startsiden -->
                 <i class='bx bxs-circle start'></i>
                 </button>
                 <p class="footer_p">Start forfra</p>
@@ -78,7 +96,7 @@
                     <p class="footer_p">2010'erne</p>
                 </div>
                 <div class="footer_hjem">
-                    <button class="nav_knap" onclick="window.location.href='menu.html'">
+                    <button class="nav_knap" onclick="window.location.href='menu.html'"> <!-- Ved klik bliver brugeren taget tilbge til menuoversigten -->
                         <i class='bx bxs-home hjem'></i>
                     </button>
                     <p class="footer_p">Menu</p>
