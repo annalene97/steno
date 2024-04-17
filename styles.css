@@ -85,14 +85,20 @@ main {
     justify-content: space-between;
 }
 
-
-.footer_tom_div { /* Div, der skal muliggør flexboks */
-    width: 6rem;
+.footer_tom_div { /* Div, der skal muliggøre flexboks */
+    width: 7rem;
+    margin: 0 2%;
 }
 
-.nav_pil {
+.nav_pil { /* Flexboks til navigation */
     display: flex;
     gap: 4rem;
+}
+
+/* Styling af 'frem og tilbage'-knapper */
+.nav_knap {
+    border: 0;
+    background-color: transparent;
 }
 
 .pil_venstre, .pil_hojre {
@@ -104,20 +110,25 @@ main {
 
 .pil {
     font-size: 2.7em;
+    color: white;
 }
 
+/* Styling af flag */
 .sprog_flag {
-    width: 7rem;
-    background-color: aqua;
+    width: 8rem;
     display: flex;
-    flex-direction: row-reverse;
-    gap: 1rem;
+    gap: .8rem;
     flex-wrap: wrap;
     align-items: center;
+    margin: 10px 2%;
+    justify-content: flex-end;
 }
 
 .flag {
-    width: 3rem;
+    width: 3.5rem;
+    border: 3px solid white;
+    border-radius: 10px;
+
 }
 
 
