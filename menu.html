@@ -5,11 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="menu_style.css">
   <link rel="stylesheet" href="styles.css">
-  <!-- Javacript -->
+  <link rel="stylesheet" href="menu_style.css">
+  <!-- Ikoner -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Javascript -->
   <script src="script.js" defer></script>
-  <title>Document</title>
+  <title>Menu</title>
 </head>
 
 <body>
@@ -17,58 +23,74 @@
   <div class="tablet_container">
     <!--Start flex-container-->
     <div class="flex-container">
-      <div>Top
-        <div>Venstre - tom</div>
-        <div>Midt
-          <!--1970'erne-->
-          <button class="menupunkt_gul">1970'erne</button>
+      <div class="menu_top_flex">
+        <!--Top-->
+        <div>
+          <!--Venstre - tom-->
         </div>
         <div>
+          <!--Midt-->
+          <!--1970'erne-->
+          <button class="menu_gul" id="menu_70">1970'erne
+
+          </button>
+        </div>
+        <div>
+          <!--Højre-->
         </div>
       </div>
+
 
       <!--Hele midter sektionen-->
-      <div>Midt
-
-        <div>Venstre
+      <div id="menu_midt_flex">
+        <!--Midt-->
+        <div id="menu_midt_V_flex">
+          <!--Venstre-->
           <!--1950'erne-->
-          <button class="menupunkt_orange">1950'erne</button>
           <div>
+            <button class="menu_orange"><a href="1950.html">1950'erne</a></button>
           </div>
           <!--Renæssancen-->
-          <button class="menupunkt_lilla">Renæssancen</button>
           <div>
+            <button class="menu_lilla"><a href="renaessance.html">Renæssancen</a></button>
           </div>
         </div>
 
-        <div>Midt
-          <!--Her sætter vi billede af character-->
-        </div>
-
-
-        <div>Højre</div>
-        <!--1990'erne-->
-        <button class="menupunkt_lilla">1990'erne</button>
         <div>
+          <!--Karakter billede-->
+          <div id="menu_hoved_cirkel"><img src="images/hoved.png" alt="Karakter hoved" id="menu_billede_hoved"></div>
+        </div>
 
+
+        <div id="menu_midt_H_flex">
+          <!--1990'erne-->
+          <div>
+            <button class="menu_lilla"><a href="1990.html">1990'erne</a></button>
+          </div>
+          <!--2010'erne-->
+          <div>
+            <button class="menu_orange"><a href="2010.html">2010'erne</a></button>
+          </div>
         </div>
-        <!--2010'erne-->
-        <button class="menupunkt_orange">2010'erne</button>
-        <div>
-        </div>
+
       </div>
 
-      <div>Bund
-        <div>Venstre - tom</div>
-        <div>Midt
-          <!--Nutiden-->
-          <button class="menupunkt_gul">Nutiden</button>
+      <div>
+        <div>
+          <!-- Vestre - tom-->
         </div>
-        <div>Højre - tom</div>
+        <div>
+          <button class="menu_gul" id="menu_nutiden"><a href="nutiden.html">Nutiden</a></button>
+        </div>
+        <div>
+          <!--Højre - tom-->
+        </div>
+        <p id="menu_tekst">Vælg en tidsperiode og dyk ned i tiden <br> og dens syn på kvindekroppen.</p>
       </div>
+
       <!--slut flex container-->
     </div>
-  </div>
+
 </body>
 
 </html>

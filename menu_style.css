@@ -5,38 +5,111 @@
 /*- Flex box rundt om menuen-*/
 .flex-container {
     display: flex;
-    background-color: purple;
-    justify-content: center;
-    height: 1300px;
-    margin-top: 250px;
-
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 250px;
   }
 
-  .menupunkt_gul{
+   /* ----------
+      Flexboxe
+   ------------*/
+  /* Øverste flexbox (70'erne) */
+   .menu_top_flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   }
+
+   /* miderste flexbox (fuld midterstykke) */
+   #menu_midt_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   }
+
+   /* miderste flexbox venstre (50'erne + renæssancen) */
+   #menu_midt_V_flex{
+    display: flex;
+    flex-direction: column;
+   }
+
+   #menu_midt_H_flex{
+    display: flex;
+    flex-direction: column;
+   }
+
+  .menu_gul{
     border: none;
     border-radius: 100px;
-    background-color: #E1B75B;
-    box-shadow: 4px 4px #D4970F;
-    width: 200px;
-    height: 200px;
+    background-color: var(--gul2);
+    box-shadow: 4px 4px var(--gul1);
+    width: 190px;
+    height: 190px;
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-left: 420px;
   }
 
-  .menupunkt_lilla{
+  .menu_lilla{
     border: none;
     border-radius: 100px;
-    background-color: #8876C9;
-    box-shadow: 4px 4px #684CCD;
-    width: 200px;
-    height: 200px;
+    background-color: var(--lilla2);
+    box-shadow: 4px 4px var(--lilla1);
+    width: 190px;
+    height: 190px;
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-top: 90px;
+    margin: 50px;
   }
 
-  .menupunkt_orange{
+  .menu_orange{
     border: none;
     border-radius: 100px;
-    background-color: #E35934;
-    box-shadow: 4px 4px #D03A13;
-    width: 200px;
-    height: 200px;
+    background-color: var(--orange2);
+    box-shadow: 4px 4px var(--orange1);
+    width: 190px;
+    height: 190px;
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    margin: 50px;
   }
+
+  /* Character billede */
+  #menu_hoved_cirkel{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 250px;
+    margin-top: 200px;
+  }
+
+  #menu_billede_hoved{
+    border-radius: 100px;
+    background-color: white;
+    width: 200px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 27px;
+  }
+
+  #menu_tekst{
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 250px;
+    margin-right: 10px;
+  }
+
+  /* tekst/link på buttons */ 
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+
 
   
