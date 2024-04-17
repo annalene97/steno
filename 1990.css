@@ -1,0 +1,53 @@
+/* ---------------------- 
+-------- 1990'erne --------
+---------------------- */
+.halvfemsKvinde {
+    position: absolute;
+    bottom: 20%;
+}
+
+.halvfemsKvinde img{
+    max-width: 80%;
+}
+
+.halvfems_ideal{
+    margin-left:50%;
+    margin-top: 10%;
+}
+
+.halvfems_ideal_2{
+    margin-left:40%;
+    margin-top: 40%;
+}
+
+.lava{
+    position: absolute;
+    left: 35%;
+    bottom: 70%;
+}
+
+.lava img{
+    width: 40%;
+}
+
+.boombox{
+    position: absolute;
+    left: 60%;
+    top: 38%;
+}
+
+.boombox img{
+    width: 80%;
+    transform: rotate(10deg);
+}
+
+.discman{
+    position: absolute;
+    left: 60%;
+    top: 75%;
+}
+
+.discman img{
+    width: 60%;
+}
+
