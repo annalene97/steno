@@ -68,7 +68,7 @@ p {
 }
 
 main {
-    margin: 0 4%;
+    margin: 3% 4% 0;
 }
 
 /* ---------------------- 
@@ -85,14 +85,24 @@ main {
     justify-content: space-between;
 }
 
-.footer_tom_div { /* Div, der skal muliggøre flexboks */
+.footer_start { /* Tilbage til start-knap */
     width: 7rem;
     margin: 0 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav_pil { /* Flexboks til navigation */
+.hjem, .start, .pil {
+    font-size: 2.7em;
+    color: white;
+}
+
+.nav_boks { /* Flexboks til navigation */
     display: flex;
-    gap: 4rem;
+    gap: 3.5rem;
 }
 
 /* Styling af 'frem og tilbage'-knapper */
@@ -101,16 +111,11 @@ main {
     background-color: transparent;
 }
 
-.pil_venstre, .pil_hojre {
+.pil_venstre, .pil_hojre, .footer_hjem {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.pil {
-    font-size: 2.7em;
-    color: white;
 }
 
 /* Styling af flag */
@@ -157,12 +162,7 @@ main {
 
 
 
-/* HEADER */
-.retur {
-    width: 50px;
-    height: 50px;
-    background-color: aqua;
-}
+
 
 /* ---------------------- 
 -------- NUTIDEN --------
@@ -202,7 +202,7 @@ main {
     align-items: center;
 }
 
-.afstemning {
+#afstemning {
     width: 450px;
     height: 330px;
     background-color: var(--gul1);
@@ -217,7 +217,7 @@ main {
     text-align: center;
 }
 
-.afstemning_knap {
+#afstemning_knap {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 1.7em;
