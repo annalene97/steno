@@ -7,7 +7,36 @@
     display: flex;
     background-color: purple;
     justify-content: center;
+    height: 1300px;
+    margin-top: 250px;
 
+  }
+
+  .menupunkt_gul{
+    border: none;
+    border-radius: 100px;
+    background-color: #E1B75B;
+    box-shadow: 4px 4px #D4970F;
+    width: 200px;
+    height: 200px;
+  }
+
+  .menupunkt_lilla{
+    border: none;
+    border-radius: 100px;
+    background-color: #8876C9;
+    box-shadow: 4px 4px #684CCD;
+    width: 200px;
+    height: 200px;
+  }
+
+  .menupunkt_orange{
+    border: none;
+    border-radius: 100px;
+    background-color: #E35934;
+    box-shadow: 4px 4px #D03A13;
+    width: 200px;
+    height: 200px;
   }
 
   
