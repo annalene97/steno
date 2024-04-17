@@ -16,7 +16,7 @@
     width: 100%;
     height: auto;
   }
-  
+
   .play-knap {
     position: absolute;
     top: 50%;
@@ -25,24 +25,42 @@
     width: 50%;
     height: 30%;
     background-color: var(--lilla2);
+    border-radius: 50%;
     cursor: pointer;
-    padding: 10%;
+    padding: 40%;
   }
 
   #playKnap img{
-    
+    position: absolute;
+    top: 30%;
+    left: 30%;
   }
 
-  .intro-tekst {
+  .intro-tekst h1{
     position: absolute;
     top: 80%;
-    left: 17%;
+    left: 20%;
     font-size: 4em;
     opacity: 1;
     transition: opacity 1s ease;
   }
   
-  .intro-tekst.fade-out {
+  .intro-tekst.fade-out h1{
     opacity: 0;
   }
+
+  .velkomst-tekst p {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 2.3em;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    margin-left: 30%;
+    margin-right: 2%;
+  }
   
+  .velkomst-tekst.fade-in p {
+    opacity: 1;
+  }
+

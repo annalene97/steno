@@ -1,0 +1,43 @@
+/* ---------------------- 
+-------- 1970'erne --------
+---------------------- */
+.halvfjerdsKvinde{
+    position: absolute;
+    left: 55%;
+    bottom: 25%;
+}
+
+.halvfjerdsKvinde img{
+    max-width: 80%;
+
+}
+
+.halvfjerds_ideal_p{
+    margin-right: 55%;
+}
+
+.halvfjerds_ideal_2{
+    margin: 20% 45% 10% 10%;
+}
+
+.blomst{
+    position: absolute;
+    left: 42%;
+    bottom: 80%;
+}
+
+.blomst img{
+    width: 50%;
+}
+
+.BH{
+    position: absolute;
+    left: 20%;
+    top: 75%;
+}
+
+.atomkraft{
+    position: absolute;
+    left: 60%;
+    top: 82%;
+}
