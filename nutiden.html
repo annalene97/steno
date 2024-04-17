@@ -18,9 +18,6 @@
 <body>
     <!-- Container, der gør hele siden en bestemt bredde og højde -->
     <div class="tablet_container">
-        <header class="nav">
-            <div class="retur"></div>
-        </header>
         <main>
             <h1 class="nutid_h1">NUTIDEN</h1>
             <!-- Container til flexboks opsætning -->
@@ -34,7 +31,7 @@
                 <div class="nutid_flex1_1">
                     <div class="video_diagram">
                         <video width="480px" height="auto" autoplay>
-                            <source src="video/Bar graph.mp4" type="video/mp4">
+                            <source src="video/sojlediagram.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="nutid_flex1_ikon">
@@ -43,11 +40,12 @@
                 </div>
             </div>
             
+            <!-- FLexboks til  -->
             <div class="nutid_flex2">
                 <div class="nutid_flex2_1">
-                    <div class="afstemning">
+                    <div id="afstemning">
                         <h2 class="afstemning_h3">HVOR TILFREDS ER DU MED DIN KROP?</h2>
-                        <button class="afstemning_knap">
+                        <button id="afstemning_knap">
                             SVAR
                         </button>
                     </div>
@@ -58,22 +56,50 @@
                 </div>
                 <div class="video_emilie">
                     <h3 class="video_emilie_h2">HØR HVAD EMILIE TÆNKER OM KROPSIDEALERNE I DAG</h3>
-                    <video width="300px" height="auto" controls>
+                    <video width="300px" height="auto">
                         <source src="video/interview.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
         </main>
-        <!-- Footer -->
-        <footer class="ren_footer">
-            <div class="ren_pil">
-                <i class='bx bxs-right-arrow'></i>
-                <p class="ren_footer_p">1950'erne</p>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer_start">
+                <button class="nav_knap" onclick="window.location.href='index.html'">
+                <i class='bx bxs-circle start'></i>
+                </button>
+                <p class="footer_p">Start forfra</p>
             </div>
-            <div class="ren_flag">
-                <div class="flag dk"></div>
-                <div class="flag eng"></div>
-                <div class="flag tysk"></div>
+            <nav class="nav_boks">
+                <div class="pil_venstre">
+                    <button class="nav_knap" onclick="window.location.href='2010.html'"> <!-- Ved klik bliver brugeren taget til 2010'erne -->
+                    <i class='bx bxs-left-arrow pil'></i></button>
+                    <p class="footer_p">2010'erne</p>
+                </div>
+                <div class="footer_hjem">
+                    <button class="nav_knap" onclick="window.location.href='menu.html'">
+                        <i class='bx bxs-home hjem'></i>
+                    </button>
+                    <p class="footer_p">Menu</p>
+                </div>
+                <div class="pil_hojre">
+                    <button class="nav_knap" onclick="window.location.href='outro.html'"> <!-- Ved klik bliver brugeren taget til outrosiden -->
+                        <i class='bx bxs-right-arrow pil'></i></button>
+                    <p class="footer_p">Videre</p>
+                </div>
+            </nav>
+            <!-- Div, hvori flagene vises -->
+            <div class="sprog_flag">
+                <div class="dk">
+                    <img src="images/flag-dk.png" alt="Dansk sprog" class="flag">
+                </div>
+                <div class="eng">
+                    <img src="images/flag-eng.png" alt="English language" class="flag">
+                </div>
+                <div class="tysk">
+                    <img src="images/flag-tysk.png" alt="Deutsche Sprache" class="flag">
+                </div>
             </div>
         </footer>
     </div>
