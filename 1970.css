@@ -23,7 +23,7 @@
 .blomst{
     position: absolute;
     left: 42%;
-    bottom: 80%;
+    bottom: 75%;
 }
 
 .blomst img{
@@ -33,11 +33,12 @@
 .BH{
     position: absolute;
     left: 20%;
-    top: 75%;
+    top: 70%;
+    transform: rotate(10deg);
 }
 
 .atomkraft{
     position: absolute;
     left: 60%;
-    top: 82%;
+    top: 78%;
 }

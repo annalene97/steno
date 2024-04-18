@@ -75,6 +75,7 @@ var afstemningFoer = document.getElementById("afstemning_foer");
 // Vi finder afstemningsboks 2, der skal erstatte afstemningsboks 1
 var afstemningEfter = document.getElementById("afstemning_efter"); 
 
+
 //Funktion der skal erstatte afstemningsboks 1 med afstemningsboks 2
 svarKnap.onclick = visAfstemning; 
 function visAfstemning () {

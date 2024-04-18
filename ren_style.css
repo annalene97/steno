@@ -33,6 +33,14 @@
         margin-bottom: 25px;
     }
     
+.ren_tiden_p{
+    margin-right:100px;
+}
+
+.ren_ideal_p{
+    margin-right:100px; 
+}
+
     /* STYLING AF KROP-BILLEDE */
     .ren_krop img {
         height: 950px;
@@ -45,18 +53,22 @@
     width: 200px;
     height: 200px;
     margin-left: 250px;
-    margin-top: 25px;
+    margin-top: 30px;
    }
 
    #ren_ikon_bund{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 150px;
+
    }
 
    #ren_img_fjer{
     width: 200px;
     height: 200px;
+    rotate: -5deg;
+   
    }
 
    #ren_img_penge{
