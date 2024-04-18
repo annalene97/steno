@@ -1,0 +1,26 @@
+/* ---------- 
+----------INTRO ---------
+---------------------- */
+.karakter-intro {
+    position: relative;
+    width: 80%;
+    margin-top: 20%;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 30%;
+  }
+  
+  .video-wrapper video {
+    width: 100%;
+    height: auto;
+  }
+
+  .outro_tekst p{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10%;
+  }
