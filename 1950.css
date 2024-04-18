@@ -10,6 +10,7 @@
     justify-content: space-around;
 }
 
+/* 1950'erne: styling af billeder + ikoner */
 #halvtreds_img_krop{
     height: 950px;
     padding-bottom: 40px;
@@ -23,6 +24,19 @@
     transform: rotate(350deg);
     margin-left: 130px;
     margin-top: -50px;
+}
+
+#halvtreds_img_ms{
+    width: 150px;
+    height: 275px;
+    margin-top: 50px;
+    margin-right: 50px;
+    transform: rotate(10deg);
+}
+
+#halvtreds_img_lp{
+    width: 250px;
+    height: 250px;
 }
 
 /* 1950'er: flexbox højre */
@@ -39,19 +53,6 @@
     justify-content: space-around;
 }
 
-/* 1950'er: billede styling */
-#halvtreds_img_ms{
-    width: 150px;
-    height: 275px;
-    margin-top: 50px;
-    margin-right: 50px;
-    transform: rotate(10deg);
-}
-
-#halvtreds_img_lp{
-    width: 250px;
-    height: 250px;
-}
 
 
 
