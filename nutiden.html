@@ -50,24 +50,37 @@
             <!-- Container til flexboks opsætning -->
             <div class="nutid_flex2">
                 <div class="nutid_flex2_1">
-                    
+                   
+                    <!-- Første afstemningsboks --> 
                     <div class="afstemning_container">
-                       <div id="afstemning_svar" class="afstemning_foer">
+                       <div id="afstemning_foer" class="afstemning_foer">
                             <h3 class="afstemning_h3">HVOR TILFREDS ER DU MED <br> DIN KROP?</h3>
                             <button id="knap_svar" class="afstemning_knap">
                                 SVAR
                             </button>
                         </div>
-                            
-                        <div id="afstemning_valg" class="afstemning_efter">
+                        
+                        <!-- Anden afstemningsboks, der vises, når man trykke på 'SVAR' knappen i første afstemningsboks-->
+                        <div id="afstemning_efter" class="afstemning_efter">
                             <h3 class="afstemning_h3">HVOR TILFREDS ER DU MED <br> DIN KROP?</h3>
                             <div class="afstemning_div">
-                                <button class="knap_valg" onclick="window.location.href='#'">Slet ikke tilfreds</button>
-                                <button class="knap_valg" onclick="window.location.href='#'">Mindre tilfreds</button>
-                                <button class="knap_valg" onclick="window.location.href='#'">Hverken/eller tilfreds</button>
-                                <button class="knap_valg" onclick="window.location.href='#'">Nogenlunde tilfreds</button>
-                                <button class="knap_valg" onclick="window.location.href='#'">Meget tilfreds</button>
+                                <button class="knap_valg">Slet ikke tilfreds</button>
+                                <button class="knap_valg">Mindre tilfreds</button>
+                                <button class="knap_valg">Hverken/eller tilfreds</button>
+                                <button class="knap_valg">Nogenlunde tilfreds</button>
+                                <button class="knap_valg">Meget tilfreds</button>
                             </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal til afstemningsdiagram -->
+                    <div id="modal_afstemning" class="modal_afstemning">
+                        <!-- Modal indhold -->
+                        <div class="modal_indhold">
+                            <video width="800px" height="auto" autoplay>
+                                <source src="video/diagram.mp4" type="video/mp4">
+                            </video>
+                            <i class='bx bx-x' id="modal_luk"></i>
                         </div>
                     </div>
 
