@@ -13,6 +13,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- Ikoner -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- Javacript -->
     <script src="script.js" defer></script>
     <title>Outro</title>
@@ -23,13 +28,43 @@
         <div class="outro_tekst">
           <p id="demo_outro"></p>
         </div>
-        <div class="video-wrapper_outro">
-          <video id="videoPlayer_outro" controls>
+
+        <div class="video-wrapper-outro">
+          <video id="videoPlayer-outro" muted="muted" volume="0">
             <source src="video/outro.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
       </div>
     </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer_start">
+        <button class="nav_knap" onclick="window.location.href='index.html'">
+          <i class="bx bxs-circle start"></i>
+        </button>
+        <p class="footer_p">Start forfra</p>
+      </div>
+      <nav class="nav_boks">
+        <div class="footer_hjem">
+          <button class="nav_knap" onclick="window.location.href='menu.html'">
+            <i class="bx bxs-home hjem"></i>
+          </button>
+          <p class="footer_p">Menu</p>
+        </div>
+      </nav>
+      <!-- Div, hvori flagene vises -->
+      <div class="sprog_flag">
+        <div class="dk">
+          <img src="images/flag-dk.png" alt="Dansk sprog" class="flag" />
+        </div>
+        <div class="eng">
+          <img src="images/flag-eng.png" alt="English language" class="flag" />
+        </div>
+        <div class="tysk">
+          <img src="images/flag-tysk.png" alt="Deutsche Sprache" class="flag" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

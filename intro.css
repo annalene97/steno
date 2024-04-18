@@ -15,11 +15,12 @@
   .video-wrapper video {
     width: 100%;
     height: auto;
+    margin-top: 10%;
   }
 
   .play-knap {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
@@ -51,16 +52,33 @@
 
   .velkomst-tekst p {
     position: absolute;
-    top: 10%;
-    left: 20%;
+    top: 2%;
     font-size: 2.3em;
     opacity: 0;
     transition: opacity 1s ease-in;
-    margin-left: 30%;
-    margin-right: 2%;
+    text-align: center;
   }
   
   .velkomst-tekst.fade-in p {
     opacity: 1;
   }
 
+  #videre_knap{
+    border-radius: 50%;
+    padding: 10%;
+    position: absolute;
+    bottom: 50%;
+    left: 60%;
+    font-size: 2em;
+    background-color: var(--gul2);
+    border: none;
+  }
+
+  .videre_intro{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+
+   .videre_intro.fade-in{
+    opacity: 1;
+   }
