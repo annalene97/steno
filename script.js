@@ -67,21 +67,12 @@ document.getElementById("playKnap").addEventListener("click", function() {
 });
 
 
-<<<<<<< Updated upstream
 //Afstemningsboks
 var svarKnap = document.getElementById("knap_svar");
 var afstemningFoer = document.getElementById("afstemning_svar");
 var afstemningEfter = document.getElementById("afstemning_valg");
 
 svarKnap.addEventListener("click", function() {
-=======
-  //Afstemningsboks
-  var svarKnap = document.getElementById("knap_svar");
-  var afstemningFoer = document.getElementById("afstemning_svar");
-  var afstemningEfter = document.getElementById("afstemning_valg");
-
-  svarKnap.addEventListener("click", function() {
->>>>>>> Stashed changes
         afstemningFoer.style.display = "none";
         afstemningEfter.style.display = "flex";
 });
