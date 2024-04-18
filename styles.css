@@ -137,31 +137,6 @@ main { /* Alt undtagen footer får margins */
 }
 
 
-/* ---------------------- 
------- RENÆSSANCEN ------
----------------------- */
-    /* OPSÆTNING AF FLEXBOKS */
-.ren_flex {
-    display: flex;
-    gap: 4rem;
-}
-
-.ren_flex_tekst {
-    display: flex;
-    flex-direction: column;
-}
-
-/* STYLING AF KROP-BILLEDE */
-.ren_krop {
-    padding: 50px 0;
-}
-.ren_krop img {
-    height: 950px;
-    width: auto;
-}
-
-
-
 
 /* ---------------------- 
 -------- NUTIDEN --------
