@@ -1,5 +1,5 @@
 //Afspil video ved klik af play-knap//
-document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function() {
     var video = document.getElementById("videoPlayer");
     var playKnap = document.getElementById("playKnap");
   
@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   
 //Intro tekst fader ud, ved aktivering af play knap)
-  document.getElementById('playKnap').addEventListener('click', function() {
+    document.getElementById('playKnap').addEventListener('click', function() {
     var introTekst = document.querySelector('.intro-tekst');
     introTekst.classList.add('fade-out');
   });
 
   //Velkomst tekst fader ind, når play aktiveres//
-document.getElementById('videoPlayer').addEventListener('play', function() {
+  document.getElementById('videoPlayer').addEventListener('play', function() {
   var introText = document.querySelector('.velkomst-tekst');
   introText.classList.add('fade-in');
 });
@@ -53,7 +53,7 @@ function typeWriter(callback) {
     }
   }
   document.getElementById("demo2").style.display = "none";
-}
+} 
 
 //Gemmer den første del af teksten, så den resterende velkomst tekst kommer frem
 document.getElementById("playKnap").addEventListener("click", function() {
@@ -67,15 +67,15 @@ document.getElementById("playKnap").addEventListener("click", function() {
 });
 
 
+//Afstemningsboks
+var svarKnap = document.getElementById("knap_svar");
+var afstemningFoer = document.getElementById("afstemning_svar");
+var afstemningEfter = document.getElementById("afstemning_valg");
 
-  //Afstemningsboks
-  var svarKnap = document.getElementById("knap_svar");
-  var afstemningFoer = document.getElementById("afstemning_svar");
-  var afstemningEfter = document.getElementById("afstemning_valg");
-
-  svarKnap.addEventListener("click", function() {
+svarKnap.addEventListener("click", function() {
         afstemningFoer.style.display = "none";
         afstemningEfter.style.display = "flex";
-  });
+});
 
+//Diagram modal - Modalen skal åbnes ved tryk på vilkårlig knap i afstemningEfter. Her skal funktionen både åbne modalen og reset afstemningsboksen til afstemningFoer.
 
