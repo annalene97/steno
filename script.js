@@ -102,7 +102,11 @@ window.onload = function() {
   typeWriter(replaceText);
 };
 
+<<<<<<< Updated upstream
 /*
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 //Afstemningsboks
 var svarKnap = document.getElementById("knap_svar");
 var afstemningFoer = document.getElementById("afstemning_svar");
@@ -127,6 +131,7 @@ var afstemningFoer = document.getElementById("afstemning_foer");
 var afstemningEfter = document.getElementById("afstemning_efter"); 
 
 
+<<<<<<< Updated upstream
 //Funktion der skal erstatte afstemningsboks 1 med afstemningsboks 2
 svarKnap.onclick = visAfstemning; 
 function visAfstemning () {
@@ -215,3 +220,6 @@ window.onload = function() {
 };
 
 */
+=======
+
+>>>>>>> Stashed changes
