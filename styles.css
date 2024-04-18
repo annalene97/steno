@@ -155,7 +155,6 @@ main { /* Alt undtagen footer får margins */
 .nutid_flex1 {
     display: flex;
     gap: 5%;
-    /* margin-bottom: 20px; */
     flex-direction: column;
 }
 
@@ -172,7 +171,7 @@ main { /* Alt undtagen footer får margins */
 .nutid_flex2 {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
     justify-content: flex-start;
     align-items: center;
 }
@@ -190,8 +189,7 @@ main { /* Alt undtagen footer får margins */
     margin-bottom: .4rem;
 } 
 
-
-/* Container til afstemning  */
+/* CONTAINER TIL AFSTEMNING  */
 .afstemning_container {
     width: 450px;
     height: 350px;
@@ -310,7 +308,7 @@ main { /* Alt undtagen footer får margins */
 
 .nutid_ikon_tlf {
     width: auto;
-    height: 150px;
+    height: 130px;
     transform: rotate(-30deg)
 }
 
