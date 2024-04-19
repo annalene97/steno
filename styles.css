@@ -802,7 +802,7 @@ main { /* Alt undtagen footer får margins */
     background-color: rgba(0,0,0,0.4); /* Opaciteten nedsat */
 }
 
-/* Modal Content */
+/* Modal indhold */
 .modal_indhold {
     background-color: black;
     margin: auto;
@@ -815,7 +815,7 @@ main { /* Alt undtagen footer får margins */
     align-items: center;
 }
   
-  /* The Close Button */
+  /* Lukkeknap */
   #modal_luk {
     color: white;
     font-size: 1.7em;
