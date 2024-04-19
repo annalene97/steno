@@ -1,5 +1,5 @@
 //Afspil video ved klik af play-knap///*
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
   var video = document.getElementById("videoPlayer");
   var playKnap = document.getElementById("playKnap");
 
@@ -98,7 +98,7 @@ function replaceText() {
 }); */
 
 // Autoplay typewriting effekt når siden indlæses
-window.onload = function() {
+/*window.onload = function() {
   typeWriter(replaceText);
 };
 
@@ -223,3 +223,7 @@ window.onload = function() {
 =======
 
 >>>>>>> Stashed changes
+
+
+
+

@@ -7,7 +7,6 @@
     <title>Renæssancen</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="ren_style.css">
     <!-- Ikoner -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Fonts -->
@@ -19,9 +18,10 @@
 </head>
 
 <body>
-    <audio controls autoplay>
-        <src="lyd/Renæssancen.mp3" type="audio/mpeg">
-        </audio>
+     <!--Musik-->
+     <audio autoplay id="ren_musik">
+        <source src="lyd/Renæssancen.mp3">
+    </audio>
     <div class="tablet_container">
     
         <main>
@@ -47,7 +47,7 @@
 
                     <div id="ren_flex_lut">
                     <!--Lut sticker-->
-                        <img src="images/lut.png" alt="Lut" id="ikon_lut">
+                        <img src="images/lut.png" alt="Lut" id="ren_ikon_lut">
                     </div>
                 
                 <div id="ren_flex_tekst2">
@@ -85,21 +85,25 @@
         <!-- FOOTER -->
         <footer class="footer">
             <div class="footer_start">
+                <!-- Rund knap henviser til start/intro -->
                 <button class="nav_knap" onclick="window.location.href='index.html'">
                 <i class='bx bxs-circle start'></i>
                 </button>
                 <p class="footer_p">Start forfra</p>
             </div>
+            
             <nav class="nav_boks">
                 
+                <!-- Hjem knap henviser til menu -->
                 <div class="footer_hjem">
                     <button class="nav_knap" onclick="window.location.href='menu.html'">
                         <i class='bx bxs-home hjem'></i>
                     </button>
                     <p class="footer_p">Menu</p>
                 </div>
+
                 <div class="pil_hojre">
-                    <button class="nav_knap" onclick="window.location.href='outro.html'"> <!-- Ved klik bliver brugeren taget til outrosiden -->
+                    <button class="nav_knap" onclick="window.location.href='1950.html'"> <!-- Ved klik bliver brugeren taget til outrosiden -->
                         <i class='bx bxs-right-arrow pil'></i></button>
                     <p class="footer_p">1950'erne</p>
                 </div>
